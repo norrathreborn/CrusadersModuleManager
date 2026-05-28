@@ -14,7 +14,7 @@
 
 ---
 
-## About
+👀 About
 
 **Crusaders Module Manager** is a desktop GUI tool built to make AzerothCore module management easier and safer.
 
@@ -34,7 +34,7 @@ The tool does **not** build AzerothCore for you, edit your database, run SQL aut
 
 ## Downloads
 
-### Windows
+🪟 Windows
 
 Download:
 
@@ -46,7 +46,7 @@ Extract the ZIP, then run:
 
 The Windows installer has been tested and confirmed working.
 
-### Linux
+⭐ Linux
 
 Download:
 
@@ -60,7 +60,7 @@ A packaged Linux executable or Linux installer is not included yet. Linux packag
 
 ---
 
-## What It Can Do
+📖 What It Can Do
 
 - Discover official AzerothCore `mod-*` repositories from GitHub
 - Discover community catalogue modules using the `azerothcore-module` topic
@@ -79,7 +79,7 @@ A packaged Linux executable or Linux installer is not included yet. Linux packag
 
 ---
 
-## Safety First
+🔐 Safety First
 
 Crusaders Module Manager is intentionally conservative.
 
@@ -117,7 +117,7 @@ Remove operations move modules to backup instead of permanently deleting them.
 
 ---
 
-## Backup Behavior
+💽 Backup Behavior
 
 The tool creates backups for important actions.
 
