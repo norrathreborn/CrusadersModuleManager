@@ -123,6 +123,73 @@ The tool creates backups for important actions.
 
 Backup examples:
 
+Backups\Selected_Modules
+Backups\Removed_Modules
+Backups\Before_Update
+
+Remove operations are safe by default because removed module folders are moved into a timestamped backup folder.
+
+Update operations can optionally create a backup before pulling changes.
+
+Important Notes
+
+After installing, removing, or updating modules, you may still need to:
+
+Re-run CMake
+Regenerate build files
+Rebuild AzerothCore
+Review module README files
+Review module config files
+Review and manually apply any required SQL
+
+This tool manages module folders. It does not replace normal AzerothCore build and review steps.
+
+Confirmed V0.0.6 Testing
+
+V0.0.6 was tested with the following workflow:
+
+Open tool
+Load GitHub and Catalogue modules
+Search modules
+Open GitHub URLs
+Install a module
+Backup an installed module
+Remove an installed module
+Update an installed module
+Confirm checkboxes stay unchecked by default
+Package and install with the Windows installer
+
+A full in-game validation was also completed using mod-autobalance.
+
+Confirmed flow:
+
+Module Manager
+→ Install module
+→ Re-run CMake
+→ Build in Visual Studio
+→ Configure module
+→ Start server
+→ Log in-game
+→ Test module command
+
+mod-autobalance responded correctly in-game using:
+
+.ab mapstat
+Current Status
+
+V0.0.6 is the first confirmed packaged Windows installer release.
+
+Windows installer support is working.
+
+Linux support is currently source-only through the .pyw file.
+
+Future improvements may include:
+
+Linux packaged build
+Backup browser / backup manager
+Additional module metadata display
+More polished release packaging
+
 ```text
 Backups\Selected_Modules
 Backups\Removed_Modules
