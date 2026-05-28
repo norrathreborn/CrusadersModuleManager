@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/norrathreborn/CrusadersModuleManager/main/Assets/Images/crusadersmodulemangerlogo.png" alt="Crusaders Module Manager Logo" width="750">
+  <img src="https://raw.githubusercontent.com/norrathreborn/CrusadersModuleManager/main/Assets/Images/crusadersmodulemanagerlogo.png" alt="Crusaders Module Manager Logo" width="650">
 </p>
 
 <h1 align="center">Crusaders Module Manager V0.0.6</h1>
